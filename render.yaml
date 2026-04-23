@@ -9,5 +9,9 @@ services:
         sync: false
       - key: WAHA_HMAC_SECRET
         sync: false
+      - key: WHATSAPP_DEFAULT_ENGINE
+        value: NOWEB
+      - key: WAHA_WORKER_RESTART_SESSIONS
+        value: "true"
       - key: WAHA_LOG_LEVEL
         value: info
