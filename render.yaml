@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: waha-render
+    env: docker
+    autoDeploy: true
+    healthCheckPath: /
+    envVars:
+      - key: WAHA_API_KEY
+        sync: false
+      - key: WAHA_HMAC_SECRET
+        sync: false
+      - key: WAHA_LOG_LEVEL
+        value: info
