@@ -1,6 +1,1 @@
-FROM devlikeapro/waha-plus:latest
-
-ENV WHATSAPP_DEFAULT_ENGINE=NOWEB
-ENV WAHA_WORKER_RESTART_SESSIONS=true
-
-EXPOSE 3000
+FROM jab2020/jab-waha-plus:latest
