@@ -1,4 +1,4 @@
-FROM devlikeapro/waha:latest
+FROM devlikeapro/waha-plus:latest
 
 ENV WHATSAPP_DEFAULT_ENGINE=NOWEB
 ENV WAHA_WORKER_RESTART_SESSIONS=true
